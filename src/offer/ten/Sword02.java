@@ -54,7 +54,7 @@ class Singleton3 {
 
     static public Singleton3 getSword1() {             //锁起来好了，这样俩线程肯定不能同时访问喽
         if (sword == null)                             //只在实例却是未初始化时，进行同步；
-            synchronized (Singleton2.class) {          //不过据说不靠谱
+            synchronized (Singleton3.class) {          //不过据说不靠谱
                 if (sword == null)
                     sword = new Singleton3();
             }
