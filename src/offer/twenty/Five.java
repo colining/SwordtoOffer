@@ -1,5 +1,7 @@
 package offer.twenty;
 
+import Myjar.ListNode;
+
 /**
  * Created by asus on 2017/3/22.
  */
@@ -13,7 +15,7 @@ public class Five {
     }
 
 
-      static   public ListNode FindKthToTail(ListNode head,int k) {
+      static   public ListNode FindKthToTail(ListNode head, int k) {
           if (head==null||k<=0)
               return null;
 

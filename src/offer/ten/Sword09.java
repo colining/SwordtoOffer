@@ -26,7 +26,6 @@ public class Sword09 {
          */
         if (n < 2)
             return n;
-
         int x = 0;
         int y = 1;
         int result = 0;

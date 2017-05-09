@@ -1,5 +1,7 @@
 package offer.twenty;
 
+import Myjar.ListNode;
+
 /**
  * Created by asus on 2017/3/22.
  */
@@ -10,7 +12,7 @@ public class Seven {
     }
 
 
-    public ListNode Merge(ListNode list1,ListNode list2) {
+    public ListNode Merge(ListNode list1, ListNode list2) {
         if (list1==null)
             return list2;
        else if (list2==null)
