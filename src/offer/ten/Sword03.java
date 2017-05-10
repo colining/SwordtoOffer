@@ -5,9 +5,9 @@ package offer.ten;
  */
 public class Sword03 {
     public static void main(String[] arg) {
-        //int a[] []= {{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
+        //int DoesTreeHaveTree[] []= {{1,2,8,9},{2,4,9,12},{4,7,10,13},{6,8,11,15}};
         int a[][] = {{1, 2, 3, 9}, {2, 4, 9, 12}};
-        //int a [][] = new int[2][2];
+        //int DoesTreeHaveTree [][] = new int[2][2];
         int b = 3;
         System.out.println(Sword03.Find1(b, a));
 

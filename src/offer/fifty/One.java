@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class One {
     public  static  void  main(String []arg)
     {
-//        int a[] = {1,2,4,7,11,15};
-//        FindNumbersWithSum(a, 15);
+//        int DoesTreeHaveTree[] = {1,2,4,7,11,15};
+//        FindNumbersWithSum(DoesTreeHaveTree, 15);
 //        System.out.println("aaa");
         FindContinuousSequence1(15);
         System.out.println(arrayLists);

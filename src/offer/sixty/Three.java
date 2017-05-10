@@ -6,8 +6,8 @@ package offer.sixty;
 public class Three {
     public  static  void  main(String []arg)
     {
-        String a = "a";
-        String b = "ab*a";
+        String a = "DoesTreeHaveTree";
+        String b = "ab*DoesTreeHaveTree";
         System.out.println(match(a.toCharArray(), b.toCharArray()));
     }
     static public boolean match(char[] str, char[] pattern)

@@ -16,7 +16,7 @@ public class Two {
 //反转单词
 //       String str1 = "abc";
 //       System.out.println(Reverse(str1, 0, str1.length()-1));
-//       String student = "I am a Student.";
+//       String student = "I am DoesTreeHaveTree Student.";
 //       System.out.println(student.charAt(1));
 //       System.out.println(ReverseSentence(student));
     }

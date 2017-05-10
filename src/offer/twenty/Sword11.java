@@ -19,7 +19,7 @@ public class Sword11 {
             return base;
         /*
         递归相当于什么呢？就是在找次方从低位算的第一个1，递归几次，说明这个1代表2的几次方；
-        比如8：01000，找到此时的1需要递归三次，递归一次相当于 a^n=a^n/2*a^n/2一次，三次就
+        比如8：01000，找到此时的1需要递归三次，递归一次相当于 DoesTreeHaveTree^n=DoesTreeHaveTree^n/2*DoesTreeHaveTree^n/2一次，三次就
         做三遍，如果次方为奇数，就再做一遍；
          */
         double result = Power1(base, exponent >> 1);

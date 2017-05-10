@@ -7,7 +7,7 @@ public class Four {
     public  static  void  main(String [] arg)
     {
                     int []a= {4,8,6,12,16,14,10};
-        //System.out.println(a.length);
+        //System.out.println(DoesTreeHaveTree.length);
         System.out.println(Vs(a));
     }
     static public boolean VerifySquenceOfBST(int [] sequence) {
