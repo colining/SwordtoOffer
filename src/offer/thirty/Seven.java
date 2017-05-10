@@ -1,5 +1,7 @@
 package offer.thirty;
 
+import Myjar.TreeNode;
+
 /**
  * Created by asus on 2017/3/26.
  */

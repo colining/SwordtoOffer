@@ -1,5 +1,7 @@
 package offer.thirty;
 
+import Myjar.TreeNode;
+
 import java.util.ArrayList;
 
 /**

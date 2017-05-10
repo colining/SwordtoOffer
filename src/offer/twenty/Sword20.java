@@ -63,6 +63,5 @@ public class Sword20 {
             ++start;
         }
         return arrayList;
-
     }
 }

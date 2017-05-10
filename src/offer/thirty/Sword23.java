@@ -1,6 +1,7 @@
 package offer.thirty;
 
 
+import Myjar.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -9,33 +10,31 @@ import java.util.Queue;
 /**
  * Created by asus on 2017/3/26.
  */
-public class Three {
+public class Sword23 {
     public static void main(String[] arg) {
-        Three three = new Three();
-        TreeNode root=new TreeNode(5);
-        root.left=new TreeNode(2);
+        Sword23 sword23 = new Sword23();
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(2);
         root.right = new TreeNode(1);
-        three.PrintFromTopToBottom(root);
+        sword23.PrintFromTopToBottom(root);
     }
 
-
-
     public ArrayList<Integer> PrintFromTopToBottom(TreeNode root) {
-        ArrayList<Integer> arrayList= new ArrayList<>();
-        if (root==null)
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if (root == null)
             return arrayList;
-        TreeNode node = root;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        while (!queue.isEmpty())
-        {
+        /*
+        利用队列，遍历到一个节点，就将其子节点放在队列中，然后队列按次序出队，
+        自然就是层次遍历喽
+         */
+        while (!queue.isEmpty()) {
             TreeNode treeNode = queue.poll();
-            if (treeNode.left!=null)
-            {
+            if (treeNode.left != null) {
                 queue.offer(treeNode.left);
             }
-            if (treeNode.right!=null)
-            {
+            if (treeNode.right != null) {
                 queue.offer(treeNode.right);
             }
             arrayList.add(treeNode.val);
@@ -46,11 +45,10 @@ public class Three {
 
     /**
      * 先序遍历
-     *
+     * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node
-     *            遍历的节点
+     * @param node 遍历的节点
      */
     public static void preOrderTraverse(TreeNode node) {
         if (node == null)
@@ -62,11 +60,10 @@ public class Three {
 
     /**
      * 中序遍历
-     *
+     * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node
-     *            遍历的节点
+     * @param node 遍历的节点
      */
     public static void inOrderTraverse(TreeNode node) {
         if (node == null)
@@ -78,18 +75,17 @@ public class Three {
 
     /**
      * 后序遍历
-     *
+     * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node
-     *            遍历的节点
+     * @param node 遍历的节点
      */
     public static void postOrderTraverse(TreeNode node) {
         if (node == null)
             return;
         postOrderTraverse(node.left);
         postOrderTraverse(node.right);
-        System.out.print(node.val+ " ");
+        System.out.print(node.val + " ");
     }
 
 
