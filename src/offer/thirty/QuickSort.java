@@ -6,6 +6,9 @@ import java.util.Arrays;
  * Created by asus on 2017/3/27.
  */
 public class QuickSort {
+    /*
+    快排
+     */
     public static void main(String[] arg) {
         int a[] = {2, 3, 5, 8, 2, 5, 0, 9};
         System.out.println(Arrays.toString(quickSort1(a, 0, a.length - 1)));

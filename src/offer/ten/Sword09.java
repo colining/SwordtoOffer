@@ -1,9 +1,12 @@
 package offer.ten;
 
 /**
- * Created by asus on 2017/3/20.
+ * Created by colin on 2017/3/20.
  */
 public class Sword09 {
+    /* 斐波那契数列
+    大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项。
+     */
     public static void main(String[] arg) {
         System.out.println(Fibonacci1(3));
     }

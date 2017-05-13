@@ -1,9 +1,12 @@
 package offer.ten;
 
 /**
- * Created by asus on 2017/3/20.
+ * Created by colin on 2017/3/20.
  */
 public class Sword10 {
+    /* 二进制中一的个数
+    输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
+     */
     public static void main(String[] arg) {
         //NumberOf1(-2147483648);
         System.out.println(Integer.toBinaryString(-1000000));

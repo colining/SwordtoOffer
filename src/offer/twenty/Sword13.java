@@ -3,10 +3,12 @@ package offer.twenty;
 import Myjar.ListNode;
 
 /**
- * Created by asus on 2017/5/9.
+ * Created by colin on 2017/5/9.
  */
 public class Sword13 {
-
+    /*
+      O(1) 删除链表节点
+     */
     public static void main(String[] args) {
 
 

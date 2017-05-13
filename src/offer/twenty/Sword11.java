@@ -1,9 +1,13 @@
 package offer.twenty;
 
 /**
- * Created by asus on 2017/3/21.
+ * Created by colin on 2017/3/21.
  */
 public class Sword11 {
+    /* 数值的整数次方
+    给定一个double类型的浮点数base和int类型的整数exponent。
+    求base的exponent次方。
+     */
     public static void main(String[] arg) {
         System.out.println(Power1(2, 8));
     }

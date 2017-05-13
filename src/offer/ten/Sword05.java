@@ -1,7 +1,7 @@
 package offer.ten;
 
 /**
- * Created by asus on 2017/3/17.
+ * Created by colin on 2017/3/17.
  */
 
 import Myjar.ListNode;
@@ -10,7 +10,9 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 public class Sword05 {
-
+    /* 从尾到头打印链表
+       输入一个链表，从尾到头打印链表每个节点的值。
+     */
     public class Solution {
         ArrayList arrayList = new ArrayList();
 

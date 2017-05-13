@@ -3,9 +3,13 @@ package offer.twenty;
 import Myjar.ListNode;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class Sword17 {
+    /* 合并两个排序的链表
+    输入两个单调递增的链表，输出两个链表合成后的链表，
+    当然我们需要合成后的链表满足单调不减规则。
+     */
     public ListNode Merge2(ListNode list1, ListNode list2) {
         //递归，每次比较头结点，然后递归下一个
         if (list1 == null)

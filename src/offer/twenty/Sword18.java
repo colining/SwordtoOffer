@@ -3,9 +3,13 @@ package offer.twenty;
 import Myjar.TreeNode;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class Sword18 {
+    /* 树的子结构
+    输入两棵二叉树A，B，判断B是不是A的子结构。
+    （ps：我们约定空树不是任意一个树的子结构）
+     */
     static public boolean HasSubtree(TreeNode root1, TreeNode root2) {
         boolean result = false;
         if (root1 != null && root2 != null) {

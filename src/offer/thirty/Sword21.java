@@ -4,9 +4,15 @@ import java.util.Iterator;
 import java.util.Stack;
 
 /**
- * Created by asus on 2017/3/25.
+ * Created by colin on 2017/3/25.
  */
 public class Sword21 {
+    /* 包含min函数的栈
+    定义栈的数据结构，请在该类型中实现一个能够得到栈最小元素的min函数。
+     */
+    public static void main(String[] args) {
+
+    }
     /*
     两种方法都没写当前栈为空的情况怎么处理，
      */

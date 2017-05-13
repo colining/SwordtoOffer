@@ -3,9 +3,12 @@ package offer.twenty;
 import Myjar.ListNode;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class Sword16 {
+    /*反转链表
+    输入一个链表，反转链表后，输出链表的所有元素。
+     */
     public static void main(String[] arg) {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);

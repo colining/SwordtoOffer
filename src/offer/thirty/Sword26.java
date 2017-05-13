@@ -4,10 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by asus on 2017/3/26.
+ * Created by colin on 2017/3/26.
  */
 public class Sword26 {
-
+    /* 复杂链表的复制
+    输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，
+    另一个特殊指针指向任意一个节点），
+    返回结果为复制后复杂链表的head。
+     */
     public static class RandomListNode {
         int label;
         RandomListNode next = null;

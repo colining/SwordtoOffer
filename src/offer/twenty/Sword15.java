@@ -3,9 +3,14 @@ package offer.twenty;
 import Myjar.ListNode;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class Sword15 {
+
+    /* 链表倒数第k个结点
+    输入一个链表，输出该链表中倒数第k个结点。
+     */
+
     public static void main(String[] arg) {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);

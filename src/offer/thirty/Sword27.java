@@ -3,9 +3,13 @@ package offer.thirty;
 import Myjar.TreeNode;
 
 /**
- * Created by asus on 2017/3/26.
+ * Created by colin on 2017/3/26.
  */
 public class Sword27 {
+    /* 二叉搜索树与双向链表
+    输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。
+    要求不能创建任何新的结点，只能调整树中结点指针的指向。
+     */
     public static void main(String[] args) {
         TreeNode node = new TreeNode(4);
         node.left = new TreeNode(1);

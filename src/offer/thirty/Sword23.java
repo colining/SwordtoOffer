@@ -8,9 +8,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Created by asus on 2017/3/26.
+ * Created by colin on 2017/3/26.
  */
 public class Sword23 {
+    /* 从上往下打印二叉树
+    从上往下打印出二叉树的每个节点，同层节点从左至右打印。
+     */
     public static void main(String[] arg) {
         Sword23 sword23 = new Sword23();
         TreeNode root = new TreeNode(5);

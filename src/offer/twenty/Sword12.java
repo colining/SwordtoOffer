@@ -3,9 +3,12 @@ package offer.twenty;
 import java.util.Arrays;
 
 /**
- * Created by asus on 2017/3/21.
+ * Created by colin on 2017/3/21.
  */
 public class Sword12 {
+    /*
+    打印1到最大的 n 位数
+     */
     public static void main(String[] arg) {
         PermutationSequence1(1);
     }

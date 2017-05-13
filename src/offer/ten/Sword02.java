@@ -1,7 +1,7 @@
 package offer.ten;
 
 /**
- * Created by asus on 2017/5/7.
+ * Created by colin on 2017/5/7.
  */
 class Singleton1 {
     /*
