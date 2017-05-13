@@ -52,16 +52,23 @@
 [30:最小的k个数](https://github.com/colining/SwordtoOffer/blob/master/src/offer/thirty/Sword30.java)
 
 ## 递归:
+ps： 列一些比较经典，或者难懂的
+
 [9:斐波那契数列](https://github.com/colining/SwordtoOffer/blob/master/src/offer/ten/Sword09.java)
 
+ps：二叉树，链表出现递归很普遍的：
+
+[5:从尾到头打印链表](https://github.com/colining/SwordtoOffer/blob/master/src/offer/ten/Sword05.java)
+
 [16:反转链表](https://github.com/colining/SwordtoOffer/blob/master/src/offer/twenty/Sword16.java)
-### 二叉树出现递归会很多，因为他的遍历形式
+
+[6:重建二叉树](https://github.com/colining/SwordtoOffer/blob/master/src/offer/ten/Sword06.java)
 
 [18:树的子结构](https://github.com/colining/SwordtoOffer/blob/master/src/offer/twenty/Sword18.java)
 
 [19:二叉树镜像](https://github.com/colining/SwordtoOffer/blob/master/src/offer/twenty/Sword19.java)
 
-[25:二叉树中和为某一值得路径](https://github.com/colining/SwordtoOffer/blob/master/src/offer/thirty/Sword25.java)
+[27:二叉搜索树与双向链表](https://github.com/colining/SwordtoOffer/blob/master/src/offer/thirty/Sword27.java)
 
 [28:字符串的排列](https://github.com/colining/SwordtoOffer/blob/master/src/offer/thirty/Sword28.java)
 
