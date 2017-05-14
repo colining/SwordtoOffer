@@ -26,7 +26,7 @@ public class Sword06 {
         if (pre == null || in == null || pre.length != in.length) {
             return null;
         }
-        //TreeNode root = test(pre, in);
+        //TreeNode root = MergeSort(pre, in);
         TreeNode root = test2(pre, in, 0, pre.length - 1, 0, in.length - 1);
         System.out.println(root.toString());
         return root;

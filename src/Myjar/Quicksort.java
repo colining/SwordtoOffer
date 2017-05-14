@@ -9,10 +9,10 @@ import java.util.Arrays;
     public  static  void  main(String [] arg)
     {
         int a[] = {4,3,5,8,2,5,0,9};
-        System.out.println(Arrays.toString(quick_sort1(a, 0, a.length - 1)));
+        System.out.println(Arrays.toString(quick_sort(a, 0, a.length - 1)));
     }
 
-    public  static  int AdujustArray(int array[], int left , int right)
+    public  static  int AdjustArray(int array[], int left , int right)
    {
        int left1 =left;
         int right1= right;
@@ -36,13 +36,13 @@ import java.util.Arrays;
        array[left1]=key;
         return left1;
    }
-    public  static  int [] quick_sort1(int s[] , int l,int r)
+    public  static  int [] quick_sort(int s[] , int l, int r)
     {
         if (l<r)
         {
-            int i = AdujustArray(s,l,r);
-            quick_sort1(s,l,i-1);
-            quick_sort1(s,i+1,r);
+            int i = AdjustArray(s,l,r);
+            quick_sort(s,l,i-1);
+            quick_sort(s,i+1,r);
         }
         return s;
     }
