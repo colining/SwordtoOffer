@@ -3,9 +3,12 @@ package offer.seventy;
 import Myjar.TreeNode;
 
 /**
- * Created by asus on 2017/5/6.
+ * Created by colin on 2017/5/6.
  */
-public class Two {
+public class Sword62 {
+    /* 二叉树序列化
+    请实现两个函数，分别用来序列化和反序列化二叉树
+     */
     String Serialize(TreeNode root) {
         StringBuilder builder = new StringBuilder();
         Serialize(root, builder);
@@ -17,6 +20,7 @@ public class Two {
             builder.append("$,");
             return;
         }
+        //相当于前序遍历
         builder.append(root.val);
         builder.append(",");
         Serialize(root.left, builder);

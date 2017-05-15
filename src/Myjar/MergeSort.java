@@ -32,8 +32,6 @@ public class MergeSort {
             result[k++] = arr[start2++];
         for (k=start;k<=end;k++)
             arr[k]=result[k];
-
-
     }
     public  static void  merge_sort(int []arr)
     {

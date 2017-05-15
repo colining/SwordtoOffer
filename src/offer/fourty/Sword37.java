@@ -75,7 +75,7 @@ public class Sword37 {
     static public ListNode FindFirstCommonNode3(ListNode pHead1, ListNode pHead2) {
         /*
         链表从后往前寻找，如果有公共结点，那么后面就一定是公共结点，然后往前寻找
-        不一样的结点；就是他后面的啦
+        不一样的结点；就是它后面的啦
          */
        if (pHead1==null||pHead2==null)
            return null;
@@ -108,7 +108,7 @@ public class Sword37 {
         ListNode node2 = pHead2;
         while (node1 != node2) {
             /*
-                第一个公共节点之所以难判断是因为我们不知道两条链之前有多少个结点
+                第一个公共结点之所以难判断是因为我们不知道两条链之前有多少个结点
                 这个方法是说，一条链走完了，就从另一条链开始走，这样两个指针最后到达第一个公共结点
                 所走过的路程就是相同的了；
                 M:————|——

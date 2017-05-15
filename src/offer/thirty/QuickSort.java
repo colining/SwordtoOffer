@@ -69,9 +69,9 @@ public class QuickSort {
                     right--;
                 }
             }
-            //将哨兵补到最后剩余的位置，这就是它最后的位置，左面比他小，右面比它大
+            //将哨兵补到最后剩余的位置，这就是它最后的位置，左面比它小，右面比它大
             array[left] = x;
-            //进入递归，哨兵已然在正确的位置，所以不用对他排序了；
+            //进入递归，哨兵已然在正确的位置，所以不用对它排序了；
             quickSort1(array, leftBack, left - 1);
             quickSort1(array, left + 1, rightBack);
         }

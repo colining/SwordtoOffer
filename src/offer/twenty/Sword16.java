@@ -23,7 +23,7 @@ public class Sword16 {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode node = ReverseList1(head.next);              //node设置为最后一个节点
+        ListNode node = ReverseList1(head.next);              //node设置为最后一个结点
         /*
         原链表进行反转
          */
@@ -34,7 +34,7 @@ public class Sword16 {
 
     static public ListNode ReverseList2(ListNode head) {
         /*
-        反转顺序的方法，需要每次储存三个节点
+        反转顺序的方法，需要每次储存三个结点
          */
         ListNode currentnode = head;
         ListNode prev = null;

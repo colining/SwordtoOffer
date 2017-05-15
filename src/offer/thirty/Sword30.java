@@ -89,11 +89,11 @@ public class Sword30 {
             return arrayList;
         int[] array = BuildMaXHeap(input);
         for (int i = array.length - 1; i > array.length - 1 - k; i--) {
-            //0结点就是父节点，每次调换最后一个节点和父节点，进行堆得排序
+            //0结点就是父结点，每次调换最后一个结点和父结点，进行堆得排序
             int temp = array[0];
             array[0] = array[i];
             array[i] = temp;
-            //添加当前的父节点，也就是最小的结点
+            //添加当前的父结点，也就是最小的结点
             arrayList.add(temp);
             AdjustMaxHeap(array, 0, i);
         }
@@ -102,8 +102,8 @@ public class Sword30 {
 
     public static int[] BuildMaXHeap(int[] array) {
         /*
-        小根堆如果从一开始计数，ki就是k2i,k(2i+1)的父节点；
-        但是数组是从零计数的，个数就是数组长度，父节点下标就是/2再减去一；
+        小根堆如果从一开始计数，ki就是k2i,k(2i+1)的父结点；
+        但是数组是从零计数的，个数就是数组长度，父结点下标就是/2再减去一；
          */
         for (int i = (array.length - 2) / 2; i >= 0; i--) {
             AdjustMaxHeap(array, i, array.length);
@@ -112,24 +112,24 @@ public class Sword30 {
     }
 
     public static void AdjustMaxHeap(int[] array, int father, int length) {
-        int temp = array[father];                            //当前要调整的父节点
+        int temp = array[father];                            //当前要调整的父结点
         /*
-         j是他的子节点，如果继续循环，说明当前节点已经向下移动了了一层
-         每次都是父节点与他的子节点进行比较
+         j是它的子结点，如果继续循环，说明当前结点已经向下移动了了一层
+         每次都是父结点与它的子结点进行比较
          */
         for (int child = 2 * father + 1; child < length - 1; child = 2 * father + 1) {
-            if (child < length && array[child] > array[child + 1])    //如果右节点比左节点小，就变化下标
-            {                                                        //选出子节点中小的，和父节点比较一下，看看是不是需要调换
+            if (child < length && array[child] > array[child + 1])    //如果右结点比左结点小，就变化下标
+            {                                                        //选出子结点中小的，和父结点比较一下，看看是不是需要调换
                 child++;
             }
-            if (temp <= array[child])                                //父节点小于当前子节点的最小值，说明这个父节点为首的小根堆没有问题
+            if (temp <= array[child])                                //父结点小于当前子结点的最小值，说明这个父结点为首的小根堆没有问题
                 break;
             else {
-                array[father] = array[child];                        //父节点和子节点调换位置
-                father = child;                                      //记录父节点更换到的位置，继续下一次的循环
+                array[father] = array[child];                        //父结点和子结点调换位置
+                father = child;                                      //记录父结点更换到的位置，继续下一次的循环
             }
         }
-        array[father] = temp;                                        //父节点可能会有多次移动，所以最后一次移动结束。再赋值
+        array[father] = temp;                                        //父结点可能会有多次移动，所以最后一次移动结束。再赋值
 
     }
 }

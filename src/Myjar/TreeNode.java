@@ -1,7 +1,7 @@
 package Myjar;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class TreeNode {
     public  int val = 0;

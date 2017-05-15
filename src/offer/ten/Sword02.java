@@ -26,11 +26,11 @@ class Singleton2 {
      */
     static private Singleton2 sword = null;
 
-    private Singleton2() {                             //不允许其他类调用，但是自己可以调用
+    private Singleton2() {                             //不允许其它类调用，但是自己可以调用
     }
 
-    static public Singleton2 getSword() {            //该方法调用构造方法，其他类调用此方法；
-        if (sword == null)                            //假设现在两个线程同时到达这里，他们各自创建了他们自己的单例
+    static public Singleton2 getSword() {            //该方法调用构造方法，其它类调用此方法；
+        if (sword == null)                            //假设现在两个线程同时到达这里，它们各自创建了它们自己的单例
             sword = new Singleton2();                  //线程不安全
         return sword;
     }

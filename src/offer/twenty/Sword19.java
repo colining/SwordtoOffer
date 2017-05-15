@@ -30,9 +30,9 @@ public class Sword19 {
 
 
     static public void Mirror(TreeNode root) {
-        if (root == null)                                   //防止根节点为空
+        if (root == null)                                   //防止根结点为空
             return;
-        if (root.left == null && root.right == null)       //防止他没有两个子节点；如果有一个也需要交换位置
+        if (root.left == null && root.right == null)       //防止它没有两个子结点；如果有一个也需要交换位置
             return;
         TreeNode node = root.left;                         //交换位置
         root.left = root.right;

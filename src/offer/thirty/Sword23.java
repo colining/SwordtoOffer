@@ -12,7 +12,7 @@ import java.util.Queue;
  */
 public class Sword23 {
     /* 从上往下打印二叉树
-    从上往下打印出二叉树的每个节点，同层节点从左至右打印。
+    从上往下打印出二叉树的每个结点，同层结点从左至右打印。
      */
     public static void main(String[] arg) {
         Sword23 sword23 = new Sword23();
@@ -29,7 +29,7 @@ public class Sword23 {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         /*
-        利用队列，遍历到一个节点，就将其子节点放在队列中，然后队列按次序出队，
+        利用队列，遍历到一个结点，就将其子结点放在队列中，然后队列按次序出队，
         自然就是层次遍历喽
          */
         while (!queue.isEmpty()) {
@@ -51,7 +51,7 @@ public class Sword23 {
      * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node 遍历的节点
+     * @param node 遍历的结点
      */
     public static void preOrderTraverse(TreeNode node) {
         if (node == null)
@@ -66,7 +66,7 @@ public class Sword23 {
      * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node 遍历的节点
+     * @param node 遍历的结点
      */
     public static void inOrderTraverse(TreeNode node) {
         if (node == null)
@@ -81,7 +81,7 @@ public class Sword23 {
      * <p>
      * 这三种不同的遍历结构都是一样的，只是先后顺序不一样而已
      *
-     * @param node 遍历的节点
+     * @param node 遍历的结点
      */
     public static void postOrderTraverse(TreeNode node) {
         if (node == null)

@@ -11,7 +11,7 @@ import java.util.Stack;
 
 public class Sword05 {
     /* 从尾到头打印链表
-       输入一个链表，从尾到头打印链表每个节点的值。
+       输入一个链表，从尾到头打印链表每个结点的值。
      */
     public class Solution {
         ArrayList arrayList = new ArrayList();
@@ -26,7 +26,7 @@ public class Sword05 {
 
         void solution(ListNode listNode)          //递归函数
         {
-            if (listNode != null)                    //当listcode不是尾节点时
+            if (listNode != null)                    //当listcode不是尾结点时
             {
                 solution(listNode.next);           //递归
                 arrayList.add(listNode.val);       //添加到类的属性中，这样就不会丢失了

@@ -7,7 +7,7 @@ import Myjar.ListNode;
  */
 public class Sword13 {
     /*
-      O(1) 删除链表节点
+      O(1) 删除链表结点
      */
     public static void main(String[] args) {
 
@@ -63,13 +63,13 @@ public class Sword13 {
         }
 
         // 如果删除的是头结点，直接返回头结点的下一个结点
-        // 如果头结点就是尾节点，那就正好返回null
+        // 如果头结点就是尾结点，那就正好返回null
         if (head == toBeDeleted) {
             return head.next;
         }
 
         // 下面的情况链表至少有两个结点
-        // 在多个节点的情况下，如果删除的是最后一个节点
+        // 在多个结点的情况下，如果删除的是最后一个结点
         if (toBeDeleted.next == null) {
             // 找待删除元素的前驱
             ListNode tmp = head;
@@ -79,14 +79,14 @@ public class Sword13 {
             // 删除待结点
             tmp.next = null;
         }
-        // 在多个节点的情况下，如果删除的是某个中间结点
+        // 在多个结点的情况下，如果删除的是某个中间结点
         else {
             // 将下一个结点的值输入当前待删除的结点
             toBeDeleted.val = toBeDeleted.next.val;
             // 待删除的结点的下一个指向原先待删除引号的下下个结点，即将待删除的下一个结点删除
             toBeDeleted.next = toBeDeleted.next.next;
         }
-        // 返回删除节点后的链表头结点
+        // 返回删除结点后的链表头结点
         return head;
     }
 

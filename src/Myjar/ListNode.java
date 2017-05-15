@@ -1,7 +1,7 @@
 package Myjar;
 
 /**
- * Created by asus on 2017/3/22.
+ * Created by colin on 2017/3/22.
  */
 public class ListNode {
     public int val;

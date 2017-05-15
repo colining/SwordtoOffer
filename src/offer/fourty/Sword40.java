@@ -6,7 +6,7 @@ package offer.fourty;
 public class Sword40 {
     /* 数组中只出现过一次的数字
      一个整型数组里除了两个数字之外，
-     其他的数字都出现了两次。
+     其它的数字都出现了两次。
      请写程序找出这两个只出现一次的数字。
      */
     public static void main(String[] arg) {
@@ -33,7 +33,7 @@ public class Sword40 {
             flag <<= 1;                                   //移动1的位置
 
         //分组进行异或运算，每组都只有一个只出现过一次的值
-        //所以最后结果就是他们
+        //所以最后结果就是它们
         for (int i = 0; i < array.length; i++) {          //通过特征值分组
             if ((array[i] & flag) == 0)
                 num1[0] ^= array[i];

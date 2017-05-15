@@ -3,7 +3,7 @@ package Myjar;
 import java.util.Arrays;
 
 /**
- * Created by asus on 2017/3/27.
+ * Created by colin on 2017/3/27.
  */
  public class Quicksort {
     public  static  void  main(String [] arg)

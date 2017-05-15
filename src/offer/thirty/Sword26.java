@@ -8,8 +8,8 @@ import java.util.Map;
  */
 public class Sword26 {
     /* 复杂链表的复制
-    输入一个复杂链表（每个节点中有节点值，以及两个指针，一个指向下一个节点，
-    另一个特殊指针指向任意一个节点），
+    输入一个复杂链表（每个结点中有结点值，以及两个指针，一个指向下一个结点，
+    另一个特殊指针指向任意一个结点），
     返回结果为复制后复杂链表的head。
      */
     public static class RandomListNode {
@@ -39,7 +39,7 @@ public class Sword26 {
         return reconnect(pHead);
     }
 
-    static public void clone(RandomListNode head)     //在每一个节点后面加一个克隆节点
+    static public void clone(RandomListNode head)     //在每一个结点后面加一个克隆结点
     {
         RandomListNode node = head;
         while (node != null) {
