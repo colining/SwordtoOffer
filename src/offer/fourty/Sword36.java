@@ -131,7 +131,7 @@ public class Sword36 {
             result[k++] = arr[rightStart++];
         }
         for (int x = 0; x < k; x++) {
-            arr[leftStart + x] = result[x];
+            arr[left + x] = result[x];
         }
 
     }
