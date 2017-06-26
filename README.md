@@ -1,7 +1,7 @@
 # SwordtoOffer
 自己写的剑指Offer的java实现，oj大部分使用的是牛客，部分题写了多种解法，如果你有不同的解法，也可以写上来；
 
-[链表](https://github.com/colining/SwordtoOffer#链表-) [二叉树](https://github.com/colining/SwordtoOffer#二叉树) [递归](https://github.com/colining/SwordtoOffer#递归) [栈](https://github.com/colining/SwordtoOffer#栈) [数组/排序](https://github.com/colining/SwordtoOffer#数组排序) [关于数](https://github.com/colining/SwordtoOffer#关于数的) [位运算](https://github.com/colining/SwordtoOffer#位运算) [回溯](https://github.com/colining/SwordtoOffer#回溯)
+[链表](https://github.com/colining/SwordtoOffer#链表-) [二叉树](https://github.com/colining/SwordtoOffer#二叉树) [递归](https://github.com/colining/SwordtoOffer#递归) [栈](https://github.com/colining/SwordtoOffer#栈) [数组/排序](https://github.com/colining/SwordtoOffer#数组排序) [关于数](https://github.com/colining/SwordtoOffer#关于数的) [位运算](https://github.com/colining/SwordtoOffer#位运算) [回溯](https://github.com/colining/SwordtoOffer#回溯) [字符串](https://github.com/colining/SwordtoOffer#字符串)
 ## 链表 ：
 [5:从尾到头打印链表](https://github.com/colining/SwordtoOffer/blob/master/src/offer/ten/Sword05.java)
 
