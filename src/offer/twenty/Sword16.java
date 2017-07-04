@@ -38,15 +38,12 @@ public class Sword16 {
          */
         ListNode currentnode = head;
         ListNode prev = null;
-        ListNode result = null;
         while (currentnode != null) {
             ListNode next = currentnode.next;
-            if (next == null)
-                result = currentnode;
             currentnode.next = prev;
             prev = currentnode;
             currentnode = next;
         }
-        return result;
+        return prev;
     }
 }
