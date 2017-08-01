@@ -36,7 +36,7 @@
 
 [39:二叉树的深度](https://github.com/colining/SwordtoOffer/blob/master/src/offer/fourty/Sword39.java)
 
-[50:树结点的最低公共祖先](https://github.com/colining/SwordtoOffer/blob/master/src/offer/fifty/Sword49.java)
+[50:树结点的最低公共祖先](https://github.com/colining/SwordtoOffer/blob/master/src/offer/fifty/Sword50.java)
 
 [57: 删除链表中的重复结点](https://github.com/colining/SwordtoOffer/blob/master/src/offer/sixty/Sword57.java)
 
