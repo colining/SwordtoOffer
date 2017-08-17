@@ -37,8 +37,8 @@ public class Sword39 {
         if (root == null)
             return 0;
 
-        int leftDepth = IsBalanced_Solution1(root.left);
-        int rightDepth = IsBalanced_Solution1(root.right);
+        int leftDepth = TreeDepth(root.left);
+        int rightDepth = TreeDepth(root.right);
         //你会发现每次都要进行比较操作；但实际上最低层的结点如果不平衡
         //就没有比较的必要了
         if (Math.abs(leftDepth - rightDepth) > 1)
